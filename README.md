@@ -1,5 +1,6 @@
 # La Casona
-![casona](https://github.com/Snortzz/La-Casona-Restaurant/assets/111935925/6b119069-c27f-4137-83d0-e834980a8fc7)
+![casona](https://github.com/Snortzz/La-Casona-Restaurant/assets/111935925/bc2ce483-b4d0-4413-8f1e-1fa7ac0d2bcb)
+
 
 
 La Casona, a rural restaurant located in a quiet and picturesque environment. Our goal is to offer our clients a unique gastronomic experience, combined with the beauty of nature and a variety of services and events.
