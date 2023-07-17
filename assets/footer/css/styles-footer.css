@@ -1,0 +1,579 @@
+/* FOOTER SECTIONS */
+
+.containers-footer {
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  width: 800px;
+  margin: auto;
+}
+
+/* CAREERS */
+
+.titulo {
+  padding-bottom: 50px;
+  color: #333;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.subtitulo {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 30px;
+}
+
+.descripcion {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 15px;
+  margin-bottom: 40px;
+}
+
+.vacantes li {
+  margin-bottom: 30px;
+}
+
+.nombre-vacante {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 10px;
+  margin-bottom: 20px;
+  padding-top: 40px;
+}
+
+.descripcion-vacante {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 15px;
+}
+
+.coc {
+  padding-top: 5px;
+}
+
+.requisitos-titulo {
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 5px;
+}
+
+.requisitos {
+  list-style-type: square;
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 15px;
+  padding-left: 20px;
+}
+
+.solicitud a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.solicitud a:hover {
+  background-color: #0056b3;
+}
+
+.ben {
+  padding-top: 40px;
+}
+
+.beneficios {
+  list-style-type: disc;
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 15px;
+  padding-left: 20px;
+}
+
+.foo-careers {
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+
+/* BLOG */
+
+.titulo-blog {
+  color: #333;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 180px;
+  }
+
+.titulo-articulo {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+.meta {
+  color: #555;
+  font-size: 14px;
+  margin: 0 0 15px;
+}
+
+.autor {
+  font-weight: bold;
+}
+
+.fecha {
+  font-style: italic;
+}
+
+.contenido-articulo p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 15px;
+}
+
+.foo-blog {
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+/* TERMS & PRIVACY */
+
+.titulo {
+  color: #333;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.subtitulo {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 20px;
+}
+
+.pol {
+  padding-top: 50px;
+}
+
+.contenido {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 15px;
+}
+
+.foo-term {
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+/* FAQ */
+.faq-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.faq-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.faq-list {
+  list-style: none;
+  padding: 0;
+}
+
+.faq-item {
+  margin-bottom: 30px;
+}
+
+.faq-question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+  background-color: #e0e0e0;
+}
+
+.question-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.question-icon {
+  font-size: 24px;
+  color: #666;
+  transition: transform 0.3s ease;
+}
+
+.question-icon::after {
+  content: "+";
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.faq-answer.show {
+  max-height: 1000px;
+  transition: max-height 0.3s ease;
+}
+
+.faq-answer p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.respuesta {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f7f7f7;
+  color: #333;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  .containers-footer {
+    max-width: 90%;
+    margin: 0 auto; /* Centrar el contenido */
+  }
+
+  .titulo {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+  .descripcion {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  .vacantes li {
+    margin-bottom: 20px;
+  }
+
+  .nombre-vacante {
+    font-size: 16px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+  }
+
+  .descripcion-vacante {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .requisitos {
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+  }
+
+  .solicitud a {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+
+  .ben {
+    padding-top: 20px;
+  }
+
+  .beneficios {
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+  }
+
+  .foo-careers {
+    font-size: 12px;
+    margin-top: 30px;
+    padding-bottom: 15px;
+  }
+
+  .containers-footer {
+    max-width: 90%;
+    margin: 0 auto; /* Centrar el contenido */
+  }
+
+  .titulo {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+  .subtitulo {
+    font-size: 24px;
+    margin: 0 0 30px;
+  }
+
+  .contenido {
+    font-size: 16px;
+    margin: 0 0 15px;
+  }
+
+  .vacantes li {
+    margin-bottom: 30px;
+  }
+
+  .nombre-vacante {
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+  }
+
+  .descripcion-vacante {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .requisitos-titulo {
+    font-size: 16px;
+    margin: 0 0 5px;
+  }
+
+  .requisitos {
+    font-size: 16px;
+    margin: 0 0 15px;
+  }
+
+  .solicitud a {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .ben {
+    padding-top: 40px;
+  }
+
+  .beneficios {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }
+
+  .foo-careers {
+    font-size: 14px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  .faq-adapt {
+    max-width: 100%;
+    margin: 0 auto; /* Centrar el contenido */
+  }
+
+  .faq-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .question-title {
+    font-size: 22px;
+    margin: 0 0 10px;
+  }
+
+  .faq-answer p {
+    font-size: 16px;
+    margin: 0 0 15px;
+  }
+
+  .faq-item {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .containers-footer {
+    max-width: 90%;
+    margin: 0 auto; /* Centrar el contenido */
+  }
+
+  .titulo {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .descripcion {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .vacantes li {
+    margin-bottom: 15px;
+  }
+
+  .nombre-vacante {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .descripcion-vacante {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .requisitos {
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+  }
+
+  .solicitud a {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+
+  .ben {
+    padding-top: 15px;
+  }
+
+  .beneficios {
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+  }
+
+  .foo-careers {
+    font-size: 12px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .containers-footer {
+    max-width: 90%;
+    margin: 0 auto; /* Centrar el contenido */
+  }
+
+  .titulo {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .subtitulo {
+    font-size: 20px;
+    margin: 0 0 15px;
+  }
+
+  .contenido {
+    font-size: 14px;
+    margin: 0 0 10px;
+  }
+
+  .vacantes li {
+    margin-bottom: 10px;
+  }
+
+  .nombre-vacante {
+    font-size: 16px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+  }
+
+  .descripcion-vacante {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .requisitos-titulo {
+    font-size: 14px;
+    margin: 0 0 5px;
+  }
+
+  .requisitos {
+    font-size: 14px;
+    margin: 0 0 10px;
+  }
+
+  .solicitud a {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+
+  .ben {
+    padding-top: 20px;
+  }
+
+  .beneficios {
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+  }
+
+  .foo-careers {
+    font-size: 12px;
+    margin-top: 30px;
+    padding-bottom: 15px;
+  }
+
+  .faq-adapt {
+    max-width: 90%;
+    margin: 0 auto; /* Centrar el contenido */
+  }
+
+  .faq-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .question-title {
+    font-size: 20px;
+    margin: 0 0 10px;
+  }
+
+  .faq-answer p {
+    font-size: 16px;
+    margin: 0 0 15px;
+  }
+
+  .faq-item {
+    margin-bottom: 30px;
+  }
+}
